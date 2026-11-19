@@ -21,3 +21,6 @@ Remplacez les fichiers sur GitHub et changez `VERSION` dans `sw.js` (ex. `bullet
 - Les données (config, logo…) restent dans le navigateur de chaque appareil : utilisez *Exporter JSON* / GitHub pour les synchroniser.
 - iPhone : le PDF s'ouvre dans la feuille de partage (Enregistrer dans Fichiers).
 - Ne mettez **jamais** les noms des élèves dans un dépôt public.
+
+## Si l'ancienne icône reste (vide / transparente)
+Le navigateur garde l'icône au moment de l'installation : **désinstallez** l'app (PC : `chrome://apps` → clic droit → Supprimer ; Android : appui long → Désinstaller ; iPhone : supprimer l'icône), faites **Ctrl+F5** sur le site, puis réinstallez. Pensez aussi à changer `VERSION` dans `sw.js` à chaque mise à jour.
